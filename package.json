@@ -1,0 +1,22 @@
+{
+	"name": "products-cards-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"watch": "tsc -w",
+		"dev": "nodemon dist/index.js",
+		"dev-debug": "nodemon --inspect .\\dist\\index.js",
+		"test": "jest --detectOpenHandles --forceExit"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.13.5",
+		"typescript": "^5.7.3",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2"
+	},
+	"dependencies": {
+		"express": "^4.21.2"
+	}
+}
